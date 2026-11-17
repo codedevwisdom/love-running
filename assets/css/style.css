@@ -1,8 +1,16 @@
-/* Wilcard selector to most generally apply to styles.*/
+/* Wildcard selector to override general default web-broswer styles.*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height:100vh;
+    flex-direction: column;
+    /*Generic text styling*/
+    color: #3a3a3a;
 }
 
 header {
