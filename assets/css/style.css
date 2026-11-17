@@ -19,6 +19,9 @@ background-color: lightcoral;
 
 main {
     background-color: lightblue;
+    /* Makes main section utilise excess space; pushing down footer */
+    flex: 1 0 auto;
+
 }
 
 footer {
